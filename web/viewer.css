@@ -7510,3 +7510,24 @@ dialog :link{
 #secondaryToolbar button:focus {
     background-color: #249EA1 !important;
 }
+
+/* ===========================
+   Page & Viewer Background
+   =========================== */
+
+/* Set viewer background to pure white */
+#viewerContainer {
+    background-color: #ffffff !important; /* white background for viewer */
+}
+
+/* Make the individual PDF pages blend seamlessly */
+.pdfViewer .page {
+    background-color: #ffffff !important; /* white pages */
+    box-shadow: none !important;          /* remove gray shadows if any */
+}
+
+/* Remove outer gray border background */
+body,
+html {
+    background-color: #ffffff !important;
+}
