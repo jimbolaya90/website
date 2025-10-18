@@ -7442,3 +7442,71 @@ dialog :link{
     display:none;
   }
 }
+
+/* ===========================
+   Brand Customization - Buttons
+   =========================== */
+
+/* Toolbar background */
+#toolbarViewer {
+    background-color: #818181 !important; /* toolbar background */
+    color: #ffffff !important;           /* toolbar text */
+}
+
+/* Default toolbar buttons */
+#toolbarViewer button,
+#toolbarViewer select,
+#toolbarViewer input {
+    background-color: #FD5900 !important; /* orange buttons */
+    color: #ffffff !important;            /* text on buttons */
+    border: none !important;              /* clean look */
+    transition: background-color 0.2s ease;
+}
+
+/* Hover / focus on toolbar buttons */
+#toolbarViewer button:hover,
+#toolbarViewer button:focus {
+    background-color: #249EA1 !important; /* teal-ish on hover */
+    color: #ffffff !important;
+}
+
+/* Page number input box styling */
+#pageNumber {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #818181 !important;
+}
+
+/* Search input box styling */
+#findInput {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #818181 !important;
+}
+
+/* Hide file name (safety) */
+#fileNameLabel,
+#fileNameField {
+    display: none !important;
+}
+
+/* Active / toggled buttons */
+.toolbarButton:active, 
+.toolbarButton.toggled {
+    background-color: #249EA1 !important;
+    color: #ffffff !important;
+}
+
+/* Secondary toolbar buttons (if any) */
+#secondaryToolbar button,
+#secondaryToolbar select,
+#secondaryToolbar input {
+    background-color: #FD5900 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+#secondaryToolbar button:hover,
+#secondaryToolbar button:focus {
+    background-color: #249EA1 !important;
+}
