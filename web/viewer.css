@@ -7442,3 +7442,39 @@ dialog :link{
     display:none;
   }
 }
+
+/* ===========================
+   BRAND CUSTOMIZATION
+   =========================== */
+
+/* Toolbar background */
+#toolbarContainer {
+  background-color: #818181 !important;
+}
+
+/* Toolbar buttons */
+.toolbarButton,
+.secondaryToolbarButton {
+  background-color: #FD5900 !important;
+  color: #ffffff !important;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.toolbarButton:hover,
+.secondaryToolbarButton:hover {
+  background-color: #249EA1 !important;
+  color: #ffffff !important;
+}
+
+/* Page background */
+.pdfViewer .page {
+  background-color: #ffffff !important;
+}
+
+/* Hide file name (safety) */
+#fileNameLabel,
+#fileNameField {
+  display: none !important;
+}
+
